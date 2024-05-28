@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>javascript</title>
+</head>
+<body>
+<script type="text/javascript">
+	var res = prompt("enter the number");
+        year = parseInt(res);
+	 function isLeapYear(year) {
+    // Leap years are divisible by 4
+    // But if a year is divisible by 100, it must also be divisible by 400 to be a leap year
+    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+</script>
+
+</body>
+</html>
